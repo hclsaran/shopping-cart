@@ -14,9 +14,7 @@ import javax.servlet.http.HttpSession;
 import com.shashi.beans.UserBean;
 import com.shashi.dao.UserDaoImpl;
 
-/**
- * Servlet implementation class LoginSrv
- */
+ 
 @WebServlet("/LoginSrv")
 public class LoginSrv extends HttpServlet {
 	private static final long serialVersionUID = 1L;
