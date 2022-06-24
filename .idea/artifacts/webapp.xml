@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="webapp">
+    <output-path>$PROJECT_DIR$/classes/artifacts/webapp</output-path>
+    <root id="root">
+      <element id="module-output" name="shopping-cart" />
+      <element id="file-copy" path="$PROJECT_DIR$/../javax.servlet-api-3.0.1 (1).jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../jaxws-api-2.3.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../javax.mail-1.6.2.jar" />
+    </root>
+  </artifact>
+</component>
