@@ -27,10 +27,13 @@ public class ShowImage extends HttpServlet {
 		ProductDaoImpl dao = new ProductDaoImpl();
 		
 		String image = dao.getImage(prodId);
-		
+		request.setAttribute("image", image);
+        request.getRequestDispatcher("./index.jsp").forward(request, response);
+     
+		System.out.println("Image "+image);
 		//System.out.print("ProdId= "+prodId+" Image is available: ");
 		
-		ServletOutputStream sos = null;
+	//	ServletOutputStream sos = null;
 
 	//	sos = response.getOutputStream();
 		

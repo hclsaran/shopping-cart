@@ -77,7 +77,8 @@
       <img src="./ShowImage?pid=<%=product.getProdId() %>" alt="Product" style="height:200px; max-width:200px; max-width:300px;">
       <p class="productname"><%=product.getProdName() %> ( <%=product.getProdId() %> ) </p>
       <p class="productinfo"><%=product.getProdInfo() %></p>
-      <p class="price">Rs <%=product.getProdPrice() %> </p>
+      <p class="price">$<%=product.getProdPrice() %> </p>
+      
       <form method="post">
       	<button type="submit" formaction="<%= addToCartUrl%>">Add to Cart</button>&nbsp;&nbsp;&nbsp;
       	<button type="submit" formaction="<%= buyNowUrl%>">Buy Now</button>

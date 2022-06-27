@@ -241,11 +241,13 @@ public class ProductDaoImpl implements ProductDao{
 			ps = con.prepareStatement("select image from product where  pid=?");
 			
 			ps.setString(1, prodId);
+		
 			
 			rs = ps.executeQuery();
 			
 			if(rs.next())
 				image = rs.getString("image");
+		
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
